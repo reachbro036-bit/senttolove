@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sending Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sky">
+    <div class="stars" id="stars"></div>
+
+    <div class="character left">🤍</div>
+    <div class="character right">🤍</div>
+
+    <div class="heart-trail left-trail"></div>
+    <div class="heart-trail right-trail"></div>
+
+    <div class="big-heart">❤️</div>
+  </div>
+
+  <!-- 💌 Love Popup -->
+  <div id="lovePopup" class="popup hidden">
+    <div class="popup-content">
+      <h2 id="popupName"></h2>
+      <img src="couple.jpg" alt="couple" class="popup-photo" />
+      <p id="popupMessage"></p>
+    </div>
+  </div>
+
+  <audio id="bgMusic" src="lofi.mp3" loop preload="auto"></audio>
+  <script src="script.js"></script>
+  <audio id="animeSound" src="anime-chime.mp3" preload="auto"></audio>
+</body>
+</html>
